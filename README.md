@@ -198,6 +198,7 @@ Detailed changes for each release are documented in the [release notes](https://
 [Preview](https://panjiachen.github.io/vue-element-admin)
 
 # 简单的进行setting
+```
 git clone https://github.com/PanJiaChen/vue-element-admin
 cd vue-element-admin
 npm i
@@ -218,7 +219,6 @@ WARNING
 title：站点标题，进入某个页面后，格式为：
 页面标题 - 站点标题
 
-1
 showSettings：是否显示右侧悬浮配置按钮
 tagsView：是否显示页面标签功能条
 fixedHeader：是否将头部布局固定
@@ -246,7 +246,4 @@ permission.js：登录认证和路由跳转
 settings.js：全局配置
 main.js：全局入口文件
 App.vue：全局入口组件
-
-
-
-
+```
