@@ -38,7 +38,7 @@ export const constantRoutes = [
   {
     path: '/',
     component: Layout,
-    redirect: '/dashboard',
+    redirect: '/table',
     children: [
       {
         path: 'dashboard',
@@ -59,6 +59,7 @@ export const asyncRoutes = [
   {
     path: '/table',
     component: Layout,
+    redirect: '/table/index',
     // 重定向到 create
     // redirect: '/tests/index',
     // component: () => import('@/views/tests/index'),
